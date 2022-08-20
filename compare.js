@@ -1,7 +1,6 @@
 const config = require('./config.js');
 const mysql = require('mysql');
 const util = require('util');
-const diff = require('diff');
 
 const main = async() => {
   const db1 = makeDb(config.db1);
@@ -41,7 +40,7 @@ function displayReport(report, db1, db2) {
     }
   }
 
-  console.log('\n==== The following tables had differences ====');
+  console.log('\n==== The following tables had differences ====\n');
   for (const differentTable of report.differentTables) {
     const { diff1, diff2 } = differentTable;
 
