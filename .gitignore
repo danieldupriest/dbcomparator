@@ -1,5 +1,5 @@
 # Config
-.env
+config.js
 
 # Logs
 logs
