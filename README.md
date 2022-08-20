@@ -4,8 +4,9 @@ Compare table schema between mysql servers and generate a text report of the dif
 ## Setup
 
 1. Clone the project.
-2. Run `npm i` inside the directory.
-3. Copy `config.js.sample` to `config.js` and fill in the information for the two databases you wish to compare.
+2. Ensure node is installed.
+3. Run `npm i` inside the directory.
+4. Copy `config.js.sample` to `config.js` and fill in the information for the two databases you wish to compare.
 
 ## Running
 
